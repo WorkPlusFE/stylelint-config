@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ['stylelint-config-standard', 'stylelint-config-rational-order'],
+  extends: [
+    'stylelint-config-standard', 
+    'stylelint-config-airbnb',
+    'stylelint-config-rational-order',
+  ],
   rules: {
     'order/properties-order': [],
     'at-rule-no-unknown': null,

@@ -1,6 +1,6 @@
 {
   "name": "@w6s/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Stylelint config of WorkPlusFE",
   "main": "index.js",
   "publishConfig": {
@@ -20,12 +20,11 @@
     "url": "https://github.com/WorkPlusFE/stylelint-config/issues"
   },
   "homepage": "https://github.com/WorkPlusFE/stylelint-config#readme",
-  "peerDependencies": {
-    "stylelint": "^11.1.1"
-  },
   "dependencies": {
+    "stylelint": "^13.5.0",
+    "stylelint-config-airbnb": "^0.0.0",
     "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^19.0.0",
+    "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^3.1.1"
   }
 }
