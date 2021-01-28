@@ -1,17 +1,20 @@
 # Stylelint Config of WorkPlusFE
 
-###  Install
+### Install
 
 ```bash
 // NPM
-npm i @w6s/stylelint-config -D
+npm i stylelint @w6s/stylelint-config -D
+
 // YARN
-yarn add @w6s/stylelint-config --dev
+yarn add stylelint @w6s/stylelint-config --dev
 ```
 
 ### Usage
 
-```js
+Create a .stylelintrc.json configuration file in the root of your project:
+
+```json
 {
   "extends": ["@w6s/stylelint-config"]
 }

@@ -1,15 +1,13 @@
 module.exports = {
   extends: [
-    'stylelint-config-standard', 
-    'stylelint-config-airbnb',
-    'stylelint-config-rational-order',
+    'stylelint-config-standard',
+    'stylelint-config-sass-guidelines',
+    'stylelint-config-prettier',
   ],
+
+  // 在这里定义你的规则风格，定义规则请为规则提供注释说明
   rules: {
-    'order/properties-order': [],
-    'at-rule-no-unknown': null,
-    'number-leading-zero': null,
-    'no-descending-specificity': null,
-    'declaration-colon-newline-after': null,
-    'font-family-no-missing-generic-family-keyword': null,
+    // 最多嵌套2层
+    'max-nesting-depth': 2,
   },
 };
