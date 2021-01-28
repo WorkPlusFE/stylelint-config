@@ -1,6 +1,6 @@
 {
   "name": "@w6s/stylelint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Stylelint config of WorkPlusFE",
   "main": "index.js",
   "publishConfig": {
