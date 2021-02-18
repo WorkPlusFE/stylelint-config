@@ -22,7 +22,6 @@
   "homepage": "https://github.com/WorkPlusFE/stylelint-config#readme",
   "dependencies": {
     "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-sass-guidelines": "^7.1.0",
     "stylelint-config-standard": "^20.0.0"
   },
   "peerDependencies": {
