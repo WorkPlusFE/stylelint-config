@@ -5,5 +5,12 @@ module.exports = {
   rules: {
     // 最多嵌套2层
     'max-nesting-depth': 2,
+    // 不检查v-deep选择器(sass专有)
+    'selector-pseudo-element-no-unknown': [
+      true,
+      {
+        ignorePseudoElements: ['v-deep'],
+      },
+    ],
   },
 };
