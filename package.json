@@ -1,6 +1,6 @@
 {
   "name": "@w6s/stylelint-config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Stylelint config of WorkPlusFE",
   "main": "index.js",
   "publishConfig": {
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/WorkPlusFE/stylelint-config#readme",
   "dependencies": {
     "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-recommended-scss": "^5.0.0",
+    "stylelint-config-recommended-vue": "^0.0.5",
     "stylelint-config-standard": "^20.0.0"
   },
   "peerDependencies": {
